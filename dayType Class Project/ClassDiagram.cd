@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram /> ---------------------------------------
+|              dayType                |
+---------------------------------------
+| - day: string                       |
+|-------------------------------------|
+| + static daysOfWeek[7]: string      |
+|-------------------------------------|
+| + setDay(newDay: string): void     |
+| + printDay(): void                  |
+| + getDay(): string                  |
+| + getNextDay(): string              |
+| + getPrevDay(): string              |
+| + addDays(numDays: int): void       |
+|-------------------------------------|
+| + dayType()                         |
+| + dayType(initialDay: string)      |
+---------------------------------------
